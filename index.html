@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login css</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="login">
+			<div class="logo">
+				<img src="img/icon.png" alt="">
+				<h1>Crear una Cuenta</h1>
+			</div>
+            <form action="registro.php" method="post" class="login-formulario">
+				<div class="login-texto">
+					<h3>Registro</h3>
+					<p>Registrate es Gratis</p>
+				</div>
+				<label>Nombre</label>
+				<input name="nombres" class="inputs" type="text" placeholder="Ingresa Tu Nombre">
+				<label>Apellidos</label>
+				<input name="apellidos" class="inputs" type="text" placeholder="Ingresa tus Apellidos">
+				<label>Email</label>
+				<input name="correo" class="inputs" type="email" placeholder="Ingresa tu email">
+				<label>Contraseña</label>
+				<input name="pass" class="inputs" type="password" placeholder="Ingresa tu contraseña">
+				<input type="submit" value="Crear mi cuenta" class="envia">
+            </form>
+		</div>
+	</div>
+	
+	<form action="consulta.html" method="POST" class="form__consulta">
+        <input type="submit" value="CONSULTAR"> 
+    </form>	
+    
+</body>
+</html>

@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+body{
+	min-height: 100vh;
+background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #02aabd, #00cdac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	min-height: 100vh;
+	justify-content: center;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	min-height: 100vh;
+	justify-content: center;
+}
+
+.login{
+	min-height: 400px;
+	width: 780px;
+	display: flex;
+	-webkit-box-shadow: -2px 8px 26px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 8px 26px -4px rgba(0,0,0,0.75);
+box-shadow: -2px 8px 26px -4px rgba(0,0,0,0.75);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+.form__consulta{
+    text-align: center;
+    background: #32425b;
+    width: 50%;
+    margin-left: 25%;
+    margin-top:  -90px;
+}
+
+.form__consulta input{
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+.login-formulario{
+	padding: 40px 40px;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: center;
+	position: relative;
+	background: #32425b;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.login-formulario:after{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #2adcc2;
+	clip-path: polygon(100% 100%, 0 0, 100% 0);
+	width: 80px;
+	height: 90px;
+	content: '';
+    border-top-right-radius: 40px;
+}
+
+.logo{
+	width: 50%;
+	background: #2adcc2;
+	position: relative;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+label{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+}
+
+.inputs{
+	padding: 6px 2px;
+    color: #c8cbd0; 
+	border: 1px solid #b0bdd2;
+	width: 100%;
+	margin: 14px 0px;
+}
+ ::placeholder {
+
+    color: #c1ccde; 
+    font-size: 14px;
+} 
+
+input{
+	background: 0;
+    outline: none;
+	border: 0;
+	color: white;
+}
+.login-texto{
+	text-align: center;
+	
+	margin-bottom: 20px;
+}
+
+.login-texto h3{
+	color: #ffffff;
+	font-size: 24px;
+	letter-spacing: 10px;
+	margin-bottom: 10px;
+}
+
+.login-texto p{
+	color: #20d4bb;
+	margin: 1px;
+}
+
+.envia{
+    margin-left: 25%;
+	margin-top: 10px;
+	background: #25d3ba;
+	padding:10px 0px;
+    text-align: center;
+    width: 50%;
+}
+
+a{
+	color: white;
+	font-size: 12px;
+	margin: 10px;
+    text-align: center;
+}
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #32425b;
+	font-family: helvetica;
+	font-size: 15px;
+	text-align: center;
+}
+
+.logo p{
+	padding: 10px 20px;
+}
+
+h1{
+	color: #32425b;
+	margin-bottom: 20px;
+}
+
+img{
+	width: 100px;
+	margin-bottom: 20px;
+}
+	
+	
